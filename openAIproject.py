@@ -16,7 +16,7 @@ from pydub.playback import play
 from io import BytesIO
 
 # Set up OpenAI API key
-API_KEY = "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"
+API_KEY = "X"
 client = OpenAI(api_key=API_KEY)
 
 def generate_text(prompt):
@@ -64,7 +64,7 @@ def generate_audio(text):
     url = "https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM"
     headers = {
         "accept": "audio/mpeg",
-        "xi-api-key": "598ac540fd70ccb8a76c341c585bd8ff",
+        "xi-api-key": "X",
         "Content-Type": "application/json"
     }
     params = {"optimize_streaming_latency": 0}
