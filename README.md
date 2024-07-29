@@ -4,8 +4,8 @@ Easy-to-use voice assistant. Helps you with the power of OpenAI API for your ans
 
 # Requirements
 
-You can install the necessary libraries and include your API keys for seamless integration.
-We need to install the following packages for running this script:
-openai
-elevenlabs
-SpeechRecognition
+- OpenAI API key for connecting to chatGPT model.
+- Python dependencies:
+  - openai
+  - elevenlabs
+  - SpeechRecognition
